@@ -1,0 +1,29 @@
+running egg_info
+writing build/manage_hub/manage_hub.egg-info/PKG-INFO
+writing dependency_links to build/manage_hub/manage_hub.egg-info/dependency_links.txt
+writing entry points to build/manage_hub/manage_hub.egg-info/entry_points.txt
+writing requirements to build/manage_hub/manage_hub.egg-info/requires.txt
+writing top-level names to build/manage_hub/manage_hub.egg-info/top_level.txt
+reading manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+writing manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying manage_hub/nodes/unload_node.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes
+copying manage_hub/nodes/input_hub_node.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes
+copying manage_hub/utils/robot_utils.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils
+running install
+running install_lib
+copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes/unload_node.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes
+copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes/input_hub_node.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes
+copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils/robot_utils.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils
+byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes/unload_node.py to unload_node.cpython-310.pyc
+byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes/input_hub_node.py to input_hub_node.cpython-310.pyc
+byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils/robot_utils.py to robot_utils.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub-0.0.1-py3.10.egg-info' (and everything under it)
+Copying build/manage_hub/manage_hub.egg-info to /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub-0.0.1-py3.10.egg-info
+running install_scripts
+Installing hub_node script to /home/hyeongyeon/manage_hub/install/manage_hub/lib/manage_hub
+Installing unload_node script to /home/hyeongyeon/manage_hub/install/manage_hub/lib/manage_hub
+writing list of installed files to '/home/hyeongyeon/manage_hub/build/manage_hub/install.log'

@@ -1,0 +1,22 @@
+[0.630s] Invoking command in '/home/hyeongyeon/manage_hub': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data
+[0.888s] running egg_info
+[0.888s] writing build/manage_hub/manage_hub.egg-info/PKG-INFO
+[0.888s] writing dependency_links to build/manage_hub/manage_hub.egg-info/dependency_links.txt
+[0.888s] writing entry points to build/manage_hub/manage_hub.egg-info/entry_points.txt
+[0.888s] writing requirements to build/manage_hub/manage_hub.egg-info/requires.txt
+[0.888s] writing top-level names to build/manage_hub/manage_hub.egg-info/top_level.txt
+[0.890s] reading manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+[0.891s] writing manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+[0.891s] running build
+[0.891s] running build_py
+[0.892s] running install
+[0.892s] running install_lib
+[0.894s] running install_data
+[0.894s] running install_egg_info
+[0.896s] removing '/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub-0.0.1-py3.10.egg-info' (and everything under it)
+[0.896s] Copying build/manage_hub/manage_hub.egg-info to /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub-0.0.1-py3.10.egg-info
+[0.896s] running install_scripts
+[0.916s] Installing hub_node script to /home/hyeongyeon/manage_hub/install/manage_hub/lib/manage_hub
+[0.916s] Installing unload_node script to /home/hyeongyeon/manage_hub/install/manage_hub/lib/manage_hub
+[0.916s] writing list of installed files to '/home/hyeongyeon/manage_hub/build/manage_hub/install.log'
+[0.935s] Invoked command in '/home/hyeongyeon/manage_hub' returned '0': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data
