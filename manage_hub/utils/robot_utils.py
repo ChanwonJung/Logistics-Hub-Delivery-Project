@@ -3,7 +3,9 @@
 import time
 
 from ..config.constants import (
-    INITIAL_POSE
+    INITIAL_POSE,
+    ON,
+    OFF
 )
 from ..config.robot_config import ROBOT_CONFIG
 
@@ -28,18 +30,18 @@ def get_object_width() -> float:
     """물체 너비를 측정"""
     try:
         from DSR_ROBOT2 import get_digital_input
-        
-        # 디지털 입력으로 물체 너비 측정
-        width = 0.0
-        for i in range(8):  # 8개의 디지털 입력 사용
-            if get_digital_input(i):
-                width += 0.1  # 각 센서 간격 0.1m
-                
-        return width
-        
+        if get_digital_input(1) == ON:
+            if get_digital_input(2) == OFF and get_digital_input(3) == OFF:
+                object = 1
+            elif get_digital_input(2) == ON and get_digital_input(3) == OFF:
+                object = 2
+            elif get_digital_input(2) == ON and get_digital_input(3) == ON:
+                object = 3
+        return int(object)
+    
     except Exception as e:
         print(f"물체 너비 측정 중 에러: {e}")
-        return 0.0
+        return 0
 
 def safe_shutdown():
     """안전한 종료 처리"""
