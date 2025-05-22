@@ -1,0 +1,38 @@
+running egg_info
+creating build/input_hub/input_hub.egg-info
+writing build/input_hub/input_hub.egg-info/PKG-INFO
+writing dependency_links to build/input_hub/input_hub.egg-info/dependency_links.txt
+writing entry points to build/input_hub/input_hub.egg-info/entry_points.txt
+writing requirements to build/input_hub/input_hub.egg-info/requires.txt
+writing top-level names to build/input_hub/input_hub.egg-info/top_level.txt
+writing manifest file 'build/input_hub/input_hub.egg-info/SOURCES.txt'
+reading manifest file 'build/input_hub/input_hub.egg-info/SOURCES.txt'
+writing manifest file 'build/input_hub/input_hub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hyeongyeon/input_hub/build/input_hub/build
+creating /home/hyeongyeon/input_hub/build/input_hub/build/lib
+creating /home/hyeongyeon/input_hub/build/input_hub/build/lib/input_hub
+copying input_hub/con_to_hub.py -> /home/hyeongyeon/input_hub/build/input_hub/build/lib/input_hub
+copying input_hub/__init__.py -> /home/hyeongyeon/input_hub/build/input_hub/build/lib/input_hub
+copying input_hub/setup.py -> /home/hyeongyeon/input_hub/build/input_hub/build/lib/input_hub
+running install
+running install_lib
+creating /home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub
+copying /home/hyeongyeon/input_hub/build/input_hub/build/lib/input_hub/con_to_hub.py -> /home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub
+copying /home/hyeongyeon/input_hub/build/input_hub/build/lib/input_hub/__init__.py -> /home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub
+copying /home/hyeongyeon/input_hub/build/input_hub/build/lib/input_hub/setup.py -> /home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub
+byte-compiling /home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub/con_to_hub.py to con_to_hub.cpython-310.pyc
+byte-compiling /home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub/setup.py to setup.cpython-310.pyc
+running install_data
+creating /home/hyeongyeon/input_hub/install/input_hub/share/ament_index
+creating /home/hyeongyeon/input_hub/install/input_hub/share/ament_index/resource_index
+creating /home/hyeongyeon/input_hub/install/input_hub/share/ament_index/resource_index/packages
+copying resource/input_hub -> /home/hyeongyeon/input_hub/install/input_hub/share/ament_index/resource_index/packages
+copying package.xml -> /home/hyeongyeon/input_hub/install/input_hub/share/input_hub
+running install_egg_info
+Copying build/input_hub/input_hub.egg-info to /home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing input_hub_node script to /home/hyeongyeon/input_hub/install/input_hub/lib/input_hub
+writing list of installed files to '/home/hyeongyeon/input_hub/build/input_hub/install.log'

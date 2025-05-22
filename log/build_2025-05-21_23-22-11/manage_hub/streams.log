@@ -1,0 +1,73 @@
+[0.853s] Invoking command in '/home/hyeongyeon/manage_hub': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data
+[1.209s] running egg_info
+[1.209s] creating build/manage_hub/manage_hub.egg-info
+[1.210s] writing build/manage_hub/manage_hub.egg-info/PKG-INFO
+[1.210s] writing dependency_links to build/manage_hub/manage_hub.egg-info/dependency_links.txt
+[1.210s] writing entry points to build/manage_hub/manage_hub.egg-info/entry_points.txt
+[1.210s] writing requirements to build/manage_hub/manage_hub.egg-info/requires.txt
+[1.210s] writing top-level names to build/manage_hub/manage_hub.egg-info/top_level.txt
+[1.211s] writing manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+[1.212s] package init file 'manage_hub/__init__.py' not found (or not a regular file)
+[1.213s] reading manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+[1.214s] writing manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+[1.214s] running build
+[1.214s] running build_py
+[1.214s] creating /home/hyeongyeon/manage_hub/build/manage_hub/build
+[1.214s] creating /home/hyeongyeon/manage_hub/build/manage_hub/build/lib
+[1.214s] creating /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub
+[1.214s] creating /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes
+[1.214s] copying manage_hub/nodes/unload_node.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes
+[1.215s] copying manage_hub/nodes/input_hub_node.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes
+[1.215s] copying manage_hub/nodes/__init__.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes
+[1.215s] creating /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core
+[1.215s] copying manage_hub/core/hub_base.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core
+[1.215s] copying manage_hub/core/unload_hub.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core
+[1.215s] copying manage_hub/core/gripper.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core
+[1.215s] copying manage_hub/core/__init__.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core
+[1.215s] creating /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils
+[1.216s] copying manage_hub/utils/robot_utils.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils
+[1.216s] copying manage_hub/utils/motion_utils.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils
+[1.216s] copying manage_hub/utils/__init__.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils
+[1.216s] creating /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/config
+[1.216s] copying manage_hub/config/constants.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/config
+[1.216s] copying manage_hub/config/robot_config.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/config
+[1.216s] copying manage_hub/config/__init__.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/config
+[1.216s] running install
+[1.217s] running install_lib
+[1.218s] creating /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub
+[1.218s] creating /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes
+[1.218s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes/unload_node.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes
+[1.218s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes/input_hub_node.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes
+[1.218s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes/__init__.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes
+[1.218s] creating /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core
+[1.218s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core/hub_base.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core
+[1.218s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core/unload_hub.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core
+[1.218s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core/gripper.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core
+[1.218s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core/__init__.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core
+[1.218s] creating /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/config
+[1.218s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/config/constants.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/config
+[1.219s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/config/robot_config.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/config
+[1.219s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/config/__init__.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/config
+[1.219s] creating /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils
+[1.219s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils/robot_utils.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils
+[1.219s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils/motion_utils.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils
+[1.219s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils/__init__.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils
+[1.220s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes/unload_node.py to unload_node.cpython-310.pyc
+[1.221s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes/input_hub_node.py to input_hub_node.cpython-310.pyc
+[1.224s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes/__init__.py to __init__.cpython-310.pyc
+[1.225s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core/hub_base.py to hub_base.cpython-310.pyc
+[1.225s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core/unload_hub.py to unload_hub.cpython-310.pyc
+[1.226s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core/gripper.py to gripper.cpython-310.pyc
+[1.226s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core/__init__.py to __init__.cpython-310.pyc
+[1.226s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/config/constants.py to constants.cpython-310.pyc
+[1.227s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/config/robot_config.py to robot_config.cpython-310.pyc
+[1.227s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/config/__init__.py to __init__.cpython-310.pyc
+[1.228s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils/robot_utils.py to robot_utils.cpython-310.pyc
+[1.228s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils/motion_utils.py to motion_utils.cpython-310.pyc
+[1.229s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils/__init__.py to __init__.cpython-310.pyc
+[1.229s] running install_data
+[1.229s] creating /home/hyeongyeon/manage_hub/install/manage_hub/share/ament_index
+[1.229s] creating /home/hyeongyeon/manage_hub/install/manage_hub/share/ament_index/resource_index
+[1.229s] error: can't copy 'resource/manage_hub': doesn't exist or not a regular file
+[1.229s] creating /home/hyeongyeon/manage_hub/install/manage_hub/share/ament_index/resource_index/packages
+[1.251s] Invoked command in '/home/hyeongyeon/manage_hub' returned '1': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data

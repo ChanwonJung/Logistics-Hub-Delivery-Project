@@ -1,0 +1,38 @@
+[0.946s] Invoking command in '/home/hyeongyeon/manage_hub': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data
+[1.292s] running egg_info
+[1.293s] writing build/manage_hub/manage_hub.egg-info/PKG-INFO
+[1.293s] writing dependency_links to build/manage_hub/manage_hub.egg-info/dependency_links.txt
+[1.293s] writing entry points to build/manage_hub/manage_hub.egg-info/entry_points.txt
+[1.293s] writing requirements to build/manage_hub/manage_hub.egg-info/requires.txt
+[1.293s] writing top-level names to build/manage_hub/manage_hub.egg-info/top_level.txt
+[1.296s] reading manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+[1.297s] writing manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+[1.297s] running build
+[1.297s] running build_py
+[1.297s] copying manage_hub/__init__.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub
+[1.297s] copying manage_hub/nodes/__init__.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes
+[1.298s] copying manage_hub/core/__init__.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core
+[1.298s] copying manage_hub/utils/__init__.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils
+[1.298s] copying manage_hub/config/__init__.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/config
+[1.298s] running install
+[1.299s] running install_lib
+[1.299s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes/__init__.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes
+[1.300s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core/__init__.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core
+[1.300s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/config/__init__.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/config
+[1.300s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils/__init__.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils
+[1.300s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/__init__.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub
+[1.301s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes/__init__.py to __init__.cpython-310.pyc
+[1.301s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core/__init__.py to __init__.cpython-310.pyc
+[1.301s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/config/__init__.py to __init__.cpython-310.pyc
+[1.301s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils/__init__.py to __init__.cpython-310.pyc
+[1.302s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/__init__.py to __init__.cpython-310.pyc
+[1.302s] running install_data
+[1.302s] copying resource/manage_hub -> /home/hyeongyeon/manage_hub/install/manage_hub/share/ament_index/resource_index/packages
+[1.302s] copying package.xml -> /home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub
+[1.302s] running install_egg_info
+[1.304s] Copying build/manage_hub/manage_hub.egg-info to /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub-0.0.1-py3.10.egg-info
+[1.305s] running install_scripts
+[1.332s] Installing hub_node script to /home/hyeongyeon/manage_hub/install/manage_hub/lib/manage_hub
+[1.332s] Installing unload_node script to /home/hyeongyeon/manage_hub/install/manage_hub/lib/manage_hub
+[1.333s] writing list of installed files to '/home/hyeongyeon/manage_hub/build/manage_hub/install.log'
+[1.363s] Invoked command in '/home/hyeongyeon/manage_hub' returned '0': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data

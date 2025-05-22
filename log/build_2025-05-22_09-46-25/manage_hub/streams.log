@@ -1,0 +1,43 @@
+[1.629s] Invoking command in '/home/hyeongyeon/manage_hub': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data
+[2.269s] running egg_info
+[2.270s] writing build/manage_hub/manage_hub.egg-info/PKG-INFO
+[2.271s] writing dependency_links to build/manage_hub/manage_hub.egg-info/dependency_links.txt
+[2.272s] writing entry points to build/manage_hub/manage_hub.egg-info/entry_points.txt
+[2.272s] writing requirements to build/manage_hub/manage_hub.egg-info/requires.txt
+[2.272s] writing top-level names to build/manage_hub/manage_hub.egg-info/top_level.txt
+[2.276s] reading manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+[2.278s] writing manifest file 'build/manage_hub/manage_hub.egg-info/SOURCES.txt'
+[2.278s] running build
+[2.279s] running build_py
+[2.280s] copying manage_hub/nodes/unload_node.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes
+[2.280s] copying manage_hub/nodes/input_hub_node.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes
+[2.280s] copying manage_hub/core/hub_base.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core
+[2.280s] copying manage_hub/core/unload_hub.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core
+[2.280s] copying manage_hub/core/gripper.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core
+[2.280s] copying manage_hub/utils/robot_utils.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils
+[2.280s] copying manage_hub/utils/motion_utils.py -> /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils
+[2.281s] running install
+[2.282s] running install_lib
+[2.283s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes/unload_node.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes
+[2.283s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/nodes/input_hub_node.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes
+[2.284s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core/hub_base.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core
+[2.284s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core/unload_hub.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core
+[2.284s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/core/gripper.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core
+[2.284s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils/robot_utils.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils
+[2.284s] copying /home/hyeongyeon/manage_hub/build/manage_hub/build/lib/manage_hub/utils/motion_utils.py -> /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils
+[2.286s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes/unload_node.py to unload_node.cpython-310.pyc
+[2.291s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/nodes/input_hub_node.py to input_hub_node.cpython-310.pyc
+[2.291s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core/hub_base.py to hub_base.cpython-310.pyc
+[2.294s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core/unload_hub.py to unload_hub.cpython-310.pyc
+[2.295s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/core/gripper.py to gripper.cpython-310.pyc
+[2.296s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils/robot_utils.py to robot_utils.cpython-310.pyc
+[2.297s] byte-compiling /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub/utils/motion_utils.py to motion_utils.cpython-310.pyc
+[2.299s] running install_data
+[2.300s] running install_egg_info
+[2.302s] removing '/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub-0.0.1-py3.10.egg-info' (and everything under it)
+[2.303s] Copying build/manage_hub/manage_hub.egg-info to /home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages/manage_hub-0.0.1-py3.10.egg-info
+[2.304s] running install_scripts
+[2.352s] Installing hub_node script to /home/hyeongyeon/manage_hub/install/manage_hub/lib/manage_hub
+[2.352s] Installing unload_node script to /home/hyeongyeon/manage_hub/install/manage_hub/lib/manage_hub
+[2.354s] writing list of installed files to '/home/hyeongyeon/manage_hub/build/manage_hub/install.log'
+[2.391s] Invoked command in '/home/hyeongyeon/manage_hub' returned '0': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data

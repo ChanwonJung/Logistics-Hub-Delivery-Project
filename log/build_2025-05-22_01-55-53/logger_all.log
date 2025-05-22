@@ -1,0 +1,93 @@
+[0.820s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.820s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x732066002b60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7320663d9d50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7320663d9d50>>)
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.815s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hyeongyeon/manage_hub'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.864s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'manage_hub'
+[1.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.990s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/hyeongyeon/manage_hub/install
+[1.996s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 49 installed packages in /home/hyeongyeon/ros2_ws/install
+[2.001s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 31 installed packages in /home/hyeongyeon/install
+[2.004s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/hyeongyeon/Downloads/InstallFile/install
+[2.010s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 363 installed packages in /opt/ros/humble
+[2.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.214s] Level 5:colcon.colcon_core.verb:set package 'manage_hub' build argument 'cmake_args' from command line to 'None'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'manage_hub' build argument 'cmake_target' from command line to 'None'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'manage_hub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'manage_hub' build argument 'cmake_clean_cache' from command line to 'False'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'manage_hub' build argument 'cmake_clean_first' from command line to 'False'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'manage_hub' build argument 'cmake_force_configure' from command line to 'False'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'manage_hub' build argument 'ament_cmake_args' from command line to 'None'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'manage_hub' build argument 'catkin_cmake_args' from command line to 'None'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'manage_hub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.216s] DEBUG:colcon.colcon_core.verb:Building package 'manage_hub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hyeongyeon/manage_hub/build/manage_hub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hyeongyeon/manage_hub/install/manage_hub', 'merge_install': False, 'path': '/home/hyeongyeon/manage_hub', 'symlink_install': False, 'test_result_base': None}
+[2.216s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.219s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.220s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hyeongyeon/manage_hub' with build type 'ament_python'
+[2.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('manage_hub', 'ament_prefix_path')
+[2.236s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/hook/ament_prefix_path.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/hook/ament_prefix_path.dsv'
+[2.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/hook/ament_prefix_path.sh'
+[2.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.370s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hyeongyeon/manage_hub'
+[3.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hyeongyeon/manage_hub': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data
+[6.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hyeongyeon/manage_hub' returned '0': PYTHONPATH=/home/hyeongyeon/manage_hub/build/manage_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/manage_hub build --build-base /home/hyeongyeon/manage_hub/build/manage_hub/build install --record /home/hyeongyeon/manage_hub/build/manage_hub/install.log --single-version-externally-managed install_data
+[6.338s] Level 1:colcon.colcon_core.environment:checking '/home/hyeongyeon/manage_hub/install/manage_hub' for CMake module files
+[6.339s] Level 1:colcon.colcon_core.environment:checking '/home/hyeongyeon/manage_hub/install/manage_hub' for CMake config files
+[6.345s] Level 1:colcon.colcon_core.environment:checking '/home/hyeongyeon/manage_hub/install/manage_hub/lib'
+[6.346s] Level 1:colcon.colcon_core.environment:checking '/home/hyeongyeon/manage_hub/install/manage_hub/bin'
+[6.348s] Level 1:colcon.colcon_core.environment:checking '/home/hyeongyeon/manage_hub/install/manage_hub/lib/pkgconfig/manage_hub.pc'
+[6.350s] Level 1:colcon.colcon_core.environment:checking '/home/hyeongyeon/manage_hub/install/manage_hub/lib/python3.10/site-packages'
+[6.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('manage_hub', 'pythonpath')
+[6.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/hook/pythonpath.ps1'
+[6.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/hook/pythonpath.dsv'
+[6.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/hook/pythonpath.sh'
+[6.355s] Level 1:colcon.colcon_core.environment:checking '/home/hyeongyeon/manage_hub/install/manage_hub/bin'
+[6.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manage_hub)
+[6.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/package.ps1'
+[6.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/package.dsv'
+[6.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/package.sh'
+[6.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/package.bash'
+[6.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/hyeongyeon/manage_hub/install/manage_hub/share/manage_hub/package.zsh'
+[6.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hyeongyeon/manage_hub/install/manage_hub/share/colcon-core/packages/manage_hub)
+[6.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.373s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.394s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.434s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.435s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hyeongyeon/manage_hub/install/local_setup.ps1'
+[6.441s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hyeongyeon/manage_hub/install/_local_setup_util_ps1.py'
+[6.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hyeongyeon/manage_hub/install/setup.ps1'
+[6.456s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hyeongyeon/manage_hub/install/local_setup.sh'
+[6.458s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hyeongyeon/manage_hub/install/_local_setup_util_sh.py'
+[6.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hyeongyeon/manage_hub/install/setup.sh'
+[6.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hyeongyeon/manage_hub/install/local_setup.bash'
+[6.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hyeongyeon/manage_hub/install/setup.bash'
+[6.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hyeongyeon/manage_hub/install/local_setup.zsh'
+[6.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hyeongyeon/manage_hub/install/setup.zsh'

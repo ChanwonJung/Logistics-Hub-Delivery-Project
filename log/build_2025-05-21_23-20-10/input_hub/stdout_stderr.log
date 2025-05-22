@@ -1,0 +1,7 @@
+running egg_info
+writing build/input_hub/input_hub.egg-info/PKG-INFO
+writing dependency_links to build/input_hub/input_hub.egg-info/dependency_links.txt
+writing entry points to build/input_hub/input_hub.egg-info/entry_points.txt
+writing requirements to build/input_hub/input_hub.egg-info/requires.txt
+writing top-level names to build/input_hub/input_hub.egg-info/top_level.txt
+error: package directory 'input_hub' does not exist

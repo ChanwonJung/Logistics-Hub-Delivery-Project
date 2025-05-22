@@ -1,0 +1,21 @@
+[0.671s] Invoking command in '/home/hyeongyeon/input_hub': PYTHONPATH=/home/hyeongyeon/input_hub/build/input_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/input_hub build --build-base /home/hyeongyeon/input_hub/build/input_hub/build install --record /home/hyeongyeon/input_hub/build/input_hub/install.log --single-version-externally-managed install_data
+[0.920s] running egg_info
+[0.921s] writing build/input_hub/input_hub.egg-info/PKG-INFO
+[0.921s] writing dependency_links to build/input_hub/input_hub.egg-info/dependency_links.txt
+[0.921s] writing entry points to build/input_hub/input_hub.egg-info/entry_points.txt
+[0.921s] writing requirements to build/input_hub/input_hub.egg-info/requires.txt
+[0.921s] writing top-level names to build/input_hub/input_hub.egg-info/top_level.txt
+[0.923s] reading manifest file 'build/input_hub/input_hub.egg-info/SOURCES.txt'
+[0.923s] writing manifest file 'build/input_hub/input_hub.egg-info/SOURCES.txt'
+[0.923s] running build
+[0.923s] running build_py
+[0.924s] running install
+[0.924s] running install_lib
+[0.926s] running install_data
+[0.926s] running install_egg_info
+[0.928s] removing '/home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.929s] Copying build/input_hub/input_hub.egg-info to /home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages/input_hub-0.0.0-py3.10.egg-info
+[0.929s] running install_scripts
+[0.949s] Installing input_hub_node script to /home/hyeongyeon/input_hub/install/input_hub/lib/input_hub
+[0.949s] writing list of installed files to '/home/hyeongyeon/input_hub/build/input_hub/install.log'
+[0.968s] Invoked command in '/home/hyeongyeon/input_hub' returned '0': PYTHONPATH=/home/hyeongyeon/input_hub/build/input_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hyeongyeon/input_hub/install/input_hub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/input_hub build --build-base /home/hyeongyeon/input_hub/build/input_hub/build install --record /home/hyeongyeon/input_hub/build/input_hub/install.log --single-version-externally-managed install_data

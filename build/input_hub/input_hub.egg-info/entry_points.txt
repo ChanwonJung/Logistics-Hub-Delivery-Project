@@ -1,0 +1,4 @@
+[console_scripts]
+hub_node = manage_hub.nodes.input_hub_node:main
+unload_node = manage_hub.nodes.unload_node:main
+
