@@ -51,6 +51,7 @@ d. Defective product handling: If a product is recognized as a defective product
 
 ## 4. Errors experienced during the project
 a. We tried to use the PyModBus Protocol, which communicates the width of the gripper in real time when an onrobot gripper, not a weblogic, picked up the object, but this was not possible due to the nature of the I/O controller.
+
 https://github.com/ABC-iRobotics/onrobot-ros2/tree/main/onrobot_rg_control/onrobot_rg_control
 
 b. The event of the hardware itself was rejected by using the set_desired_force() external command with the move().
