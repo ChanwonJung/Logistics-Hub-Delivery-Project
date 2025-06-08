@@ -1,6 +1,6 @@
 # Coupang Logistics Hub Delivery Project
 
-** Among the above folders, the final folder is the final project source code. **.
+** Among the above folders, the "최종" folder is the final project source code. **.
 
 ## 1. Project Overview
 - The demand for cooperative robots is increasing due to the risk of injury and the burden of labor costs during logistics work.
