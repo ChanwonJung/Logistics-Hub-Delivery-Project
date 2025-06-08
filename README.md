@@ -24,6 +24,7 @@ The size of the product was classified according to the width of the gripper whe
 
 ![image](https://github.com/user-attachments/assets/7764861f-1d61-4cb6-a121-78ae0638296f)
 
+
 <Algebraic flow chart>: Store blocks from factory to hub -> Load blocks in the hub area -> Ship blocks when an order is placed from the consumer
 
 
