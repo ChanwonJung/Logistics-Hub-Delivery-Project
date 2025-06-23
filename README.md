@@ -63,3 +63,17 @@ b. The event of the hardware itself was rejected by using the set_desired_force(
 https://drive.google.com/file/d/1TL33fzWuUqNZjs5VRBulr1zoC-3juKPM/view?usp=drive_link
 
 https://drive.google.com/file/d/1JSocWrj2Q6IKqsgr0UJjwAfnmWVmc3tv/view?usp=drive_link
+
+## 🔧 How to Run
+
+```bash
+# 1. Launch the M0609 manipulator to bringup
+$ cd manage_hub
+$ ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=192.168.1.100 port:=12345 model:=m0609
+
+# 2. Execute the hub_node
+$ ros2 run manage_hub hub_node
+
+# 3. Execute the input_hub_node
+$ cd project1
+$ ros2 run input_hub input_hub_node
