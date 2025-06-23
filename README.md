@@ -61,3 +61,5 @@ b. The event of the hardware itself was rejected by using the set_desired_force(
 ## 5. Demo
 
 https://drive.google.com/file/d/1TL33fzWuUqNZjs5VRBulr1zoC-3juKPM/view?usp=drive_link
+
+https://drive.google.com/file/d/1JSocWrj2Q6IKqsgr0UJjwAfnmWVmc3tv/view?usp=drive_link
